@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731400254106",
+    "project_id": "agrobuddy-29434",
+    "storage_bucket": "agrobuddy-29434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731400254106:android:07e051b25079d39c812523",
+        "android_client_info": {
+          "package_name": "com.example.agrobuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731400254106-24p2hms8luddbfucmogvjrqko186jd1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYcYVMgrjjSMF8z83MFE13fBdnSKLTX3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731400254106-24p2hms8luddbfucmogvjrqko186jd1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

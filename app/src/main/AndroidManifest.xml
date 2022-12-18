@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agrobuddy">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Agrobuddy">
+        <activity
+            android:name=".Settings"
+            android:exported="true"
+            android:label="Settings"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="true"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Credits"
+            android:exported="true"
+            android:label="Credits"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Statistics"
+            android:exported="true"
+            android:label="Statistics"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Agrobuddy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
